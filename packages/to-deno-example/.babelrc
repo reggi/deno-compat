@@ -1,0 +1,3 @@
+{
+  "plugins": ["babel-plugin-add-ext-local-import"]
+}

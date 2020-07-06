@@ -1,0 +1,25 @@
+{
+  "name": "root",
+  "private": true,
+  "scripts": {
+    "install": "lerna bootstrap && lerna exec npm install",
+    "build": "lerna run build",
+    "test": "lerna run test"
+  },
+  "devDependencies": {
+    "lerna": "^3.20.2",
+    "@babel/core": "^7.10.4",
+    "@babel/plugin-syntax-typescript": "^7.10.4",
+    "@babel/preset-typescript": "^7.10.4",
+    "@types/babel__core": "^7.1.9",
+    "@types/babel__traverse": "^7.0.12",
+    "@types/mocha": "^7.0.2",
+    "mocha": "^8.0.1",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.6"
+  },
+  "dependencies": {
+    "@types/node": "^14.0.14",
+    "babel-plugin-rm-ts-local-import": "file:packages/babel-plugin-rm-ext-local-import"
+  }
+}

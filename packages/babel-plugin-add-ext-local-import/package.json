@@ -1,0 +1,14 @@
+{
+  "name": "babel-plugin-add-ext-local-import",
+  "version": "0.0.0",
+  "license": "ISC",
+  "main": "lib/plugin.js",
+  "scripts": {
+    "build": "tsc ./src/plugin.ts --outDir ./lib",
+    "test": "mocha -r ts-node/register src/plugin_test.ts"
+  },
+  "dependencies": {
+    "@babel/traverse": "^7.10.4",
+    "@babel/types": "^7.10.4"
+  }
+}
