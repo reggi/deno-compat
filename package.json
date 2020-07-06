@@ -16,10 +16,7 @@
     "@types/mocha": "^7.0.2",
     "mocha": "^8.0.1",
     "ts-node": "^8.10.2",
-    "typescript": "^3.9.6"
-  },
-  "dependencies": {
-    "@types/node": "^14.0.14",
-    "babel-plugin-rm-ts-local-import": "file:packages/babel-plugin-rm-ext-local-import"
+    "typescript": "^3.9.6",
+    "@types/node": "^14.0.14"
   }
 }
