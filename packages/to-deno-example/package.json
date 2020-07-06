@@ -1,6 +1,6 @@
 {
   "name": "to-deno-example",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "",
   "scripts": {
     "build": "babel -x .ts --out-file-extension .ts src -d lib",
@@ -14,6 +14,6 @@
     "@babel/core": "^7.10.4"
   },
   "dependencies": {
-    "babel-plugin-add-ext-local-import": "^0.0.0"
+    "babel-plugin-add-ext-local-import": "^0.0.1"
   }
 }

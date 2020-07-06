@@ -1,6 +1,6 @@
 {
   "name": "to-node-example",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "scripts": {
     "build": "babel -x .ts --out-file-extension .ts src -d lib",
     "test": "mocha -r ts-node/register test.ts"
@@ -10,6 +10,6 @@
     "@babel/core": "^7.10.4"
   },
   "dependencies": {
-    "babel-plugin-rm-ext-local-import": "^0.0.0"
+    "babel-plugin-rm-ext-local-import": "^0.0.1"
   }
 }
