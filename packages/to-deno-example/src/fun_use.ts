@@ -1,1 +1,1 @@
-import * as fun from './fun'
+import * as fun from "./fun";

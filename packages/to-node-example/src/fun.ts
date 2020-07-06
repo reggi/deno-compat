@@ -1,1 +1,1 @@
-export default 'fun'
+export default "fun";

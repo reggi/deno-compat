@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "description": "",
   "scripts": {
-    "build": "babel -x .ts --out-file-extension .ts src -d lib"
+    "build": "babel -x .ts --out-file-extension .ts src -d lib",
+    "test": "mocha -r ts-node/register test.ts"
   },
   "keywords": [],
   "author": "",

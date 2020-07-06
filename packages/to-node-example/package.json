@@ -2,7 +2,8 @@
   "name": "to-node-example",
   "version": "0.0.0",
   "scripts": {
-    "build": "babel -x .ts --out-file-extension .ts src -d lib"
+    "build": "babel -x .ts --out-file-extension .ts src -d lib",
+    "test": "mocha -r ts-node/register test.ts"
   },
   "devDependencies": {
     "@babel/cli": "^7.10.4",
